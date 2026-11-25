@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111318">
+<meta name="description" content="ORANGE PLAY — каталог аренды игр PlayStation 4 и PlayStation 5. Профиль аренды П2.">
+<title>ORANGE PLAY — аренда игр PlayStation</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="./"><span class="brand-mark">O</span><span>ORANGE<span class="accent">PLAY</span><small>PLAYSTATION GAME RENTAL</small></span></a><nav><a href="#catalog">Каталог</a><a href="#how">Как это работает</a></nav><button class="cart-button" id="cart-open">Корзина <span id="cart-count">0</span></button></header>
+<main>
+<section class="hero"><div class="hero-copy"><div class="eyebrow"><i></i> ИГРЫ ДЛЯ PLAYSTATION</div><h1>Большие игры.<br><em>Честная цена.</em></h1><p>Выбирайте игру для PS4 или PS5, указывайте срок аренды и добавляйте заказ в корзину.</p><a class="primary-link" href="#catalog">Смотреть каталог <b>↘</b></a></div><div class="hero-art"><div class="orbit one"></div><div class="orbit two"></div><div class="console"><span>PLAY</span><strong>STATION</strong><i>04 / 05</i></div><div class="sticker">P2<small>АРЕНДА</small></div></div></section>
+<section class="catalog" id="catalog"><div class="section-head"><div><div class="eyebrow">ВЫБИРАЙ И ИГРАЙ</div><h2>Каталог игр</h2></div><div class="count" id="result-count">Загружаем каталог…</div></div>
+<div class="toolbar"><label class="search">⌕ <input id="search" type="search" placeholder="Название игры…"></label><select id="platform"><option value="all">Все платформы</option><option>PS5</option><option>PS4</option></select><select id="sort"><option value="popular">Сначала рекомендуемые</option><option value="cheap">Сначала дешевле</option><option value="expensive">Сначала дороже</option><option value="name">По названию</option></select></div>
+<div class="notice"><b>Важно:</b> сейчас размещены только позиции, у которых удалось подтвердить тип П2 и тариф на 7 дней. Другие сроки будут добавлены после проверки. П1 и П3 не используются.</div><div class="product-grid" id="products"></div></section>
+<section class="how" id="how"><div><div class="eyebrow">ПРОСТО И ПОНЯТНО</div><h2>Как это работает</h2></div><div class="steps"><article><span>01</span><h3>Выберите игру</h3><p>Найдите нужную игру и проверьте совместимость с консолью.</p></article><article><span>02</span><h3>Укажите срок</h3><p>Выберите доступный тариф аренды и добавьте позицию в корзину.</p></article><article><span>03</span><h3>Оформите заказ</h3><p>Пока это демонстрация: оплата и выдача аккаунтов не подключены.</p></article></div></section>
+</main>
+<footer><a class="brand" href="#"><span class="brand-mark">O</span><span>ORANGE<span class="accent">PLAY</span><small>PLAYSTATION GAME RENTAL</small></span></a><p>Демонстрационная версия магазина · Цены в рублях</p></footer>
+<div class="backdrop" id="backdrop"></div><aside class="drawer" id="drawer"><div class="drawer-head"><h2>Корзина</h2><button id="cart-close" aria-label="Закрыть">×</button></div><div id="cart-items" class="cart-items"><p class="empty">Пока ничего нет. Добавьте игру из каталога.</p></div><div class="drawer-bottom"><div class="total"><span>Итого</span><strong id="cart-total">0 ₽</strong></div><button class="checkout" id="checkout">Демонстрационное оформление</button><small>Оплата и выдача пока отключены.</small></div></aside><div class="toast" id="toast"></div>
+<script src="assets/app.js"></script>
+</body></html>
