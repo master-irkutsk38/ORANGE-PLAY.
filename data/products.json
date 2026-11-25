@@ -1,0 +1,171 @@
+[
+  {
+    "id": "toy-story-3",
+    "name": "Toy Story 3",
+    "genre": "Приключения",
+    "platforms": [
+      "PS4"
+    ],
+    "platformLabel": "PS4",
+    "colors": [
+      "#d46a2c",
+      "#422b60"
+    ],
+    "prices": [
+      {
+        "days": 7,
+        "price": 499
+      }
+    ],
+    "available": true,
+    "status": "Профиль P2 · тариф на 7 дней"
+  },
+  {
+    "id": "shrek-2-remastered",
+    "name": "Shrek 2 Remastered",
+    "genre": "Приключения",
+    "platforms": [
+      "PS5"
+    ],
+    "platformLabel": "PS5",
+    "colors": [
+      "#4c7b42",
+      "#203e32"
+    ],
+    "prices": [
+      {
+        "days": 7,
+        "price": 499
+      }
+    ],
+    "available": false,
+    "status": "Занят до 29 ноября 2026"
+  },
+  {
+    "id": "castlevania-belmonts-curse",
+    "name": "Castlevania: Belmont's Curse",
+    "genre": "Экшен",
+    "platforms": [
+      "PS5"
+    ],
+    "platformLabel": "PS5",
+    "colors": [
+      "#763c58",
+      "#211c3c"
+    ],
+    "prices": [
+      {
+        "days": 7,
+        "price": 599
+      }
+    ],
+    "available": true,
+    "status": "Профиль P2 · тариф на 7 дней"
+  },
+  {
+    "id": "planet-zoo-2",
+    "name": "Planet Zoo 2",
+    "genre": "Симулятор",
+    "platforms": [
+      "PS5"
+    ],
+    "platformLabel": "PS5",
+    "colors": [
+      "#4d875a",
+      "#203e46"
+    ],
+    "prices": [
+      {
+        "days": 7,
+        "price": 699
+      }
+    ],
+    "available": true,
+    "status": "У партнёра · наличие уточняется"
+  },
+  {
+    "id": "dont-starve-together",
+    "name": "Don't Starve Together",
+    "genre": "Выживание",
+    "platforms": [
+      "PS4"
+    ],
+    "platformLabel": "PS4",
+    "colors": [
+      "#ad8b47",
+      "#3d2925"
+    ],
+    "prices": [
+      {
+        "days": 7,
+        "price": 300
+      }
+    ],
+    "available": true,
+    "status": "Профиль P2 · тариф на 7 дней"
+  },
+  {
+    "id": "little-nightmares-iii",
+    "name": "Little Nightmares III + Дополнение",
+    "genre": "Приключения",
+    "platforms": [
+      "PS5"
+    ],
+    "platformLabel": "PS5",
+    "colors": [
+      "#6b596e",
+      "#25283c"
+    ],
+    "prices": [
+      {
+        "days": 7,
+        "price": 499
+      }
+    ],
+    "available": true,
+    "status": "Профиль P2 · тариф на 7 дней"
+  },
+  {
+    "id": "dead-reset",
+    "name": "Dead Reset",
+    "genre": "Хоррор",
+    "platforms": [
+      "PS5"
+    ],
+    "platformLabel": "PS5",
+    "colors": [
+      "#9a403c",
+      "#241c29"
+    ],
+    "prices": [
+      {
+        "days": 7,
+        "price": 299
+      }
+    ],
+    "available": true,
+    "status": "Профиль P2 · тариф на 7 дней"
+  },
+  {
+    "id": "tony-hawk-pro-skater-3-4",
+    "name": "Tony Hawk's Pro Skater 3 + 4 Cross-Gen",
+    "genre": "Спорт",
+    "platforms": [
+      "PS4",
+      "PS5"
+    ],
+    "platformLabel": "PS4 / PS5",
+    "colors": [
+      "#d17b37",
+      "#353c5d"
+    ],
+    "prices": [
+      {
+        "days": 7,
+        "price": 299
+      }
+    ],
+    "available": true,
+    "status": "Профиль P2 · тариф на 7 дней"
+  }
+]
